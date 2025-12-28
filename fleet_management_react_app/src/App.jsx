@@ -7,7 +7,7 @@ import Admin from "./pages/Admin";
 function App() {
   return (
     <>
-      <BrowserRouter>
+    
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route
@@ -19,7 +19,7 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
+
     </>
   );
 }
